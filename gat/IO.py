@@ -95,6 +95,7 @@ def buildSegments(options):
     '''
 
     options.segment_files = expandGlobs(options.segment_files)
+    options.ignore_segment_tracks = expandGlobs(options.ignore_segment_tracks)
     options.annotation_files = expandGlobs(options.annotation_files)
     options.workspace_files = expandGlobs(options.workspace_files)
     options.sample_files = expandGlobs(options.sample_files)
