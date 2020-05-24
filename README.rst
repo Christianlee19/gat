@@ -1,15 +1,11 @@
-The genomic association tester (GAT) tests for association between
-intervals in a genome analysis context.
+GAT 1.3.6 has a bug by defaulting --ignore-track-segments=TRUE and doesn't accept False as an agrument. Here are the steps to fix this:
 
-GAT answers the question, if a set of intervals on a genome is
-statistically significantly associated with one or more other sets of
-genomic intervals. Assocation typically means overlap, but also other
-measures like the distance between elements can be tested.
+0) log into node w/ internet access
+1) create a virtual env: conda create --name test_gat python=2.7
+2) conda activate test_gat
+3) 
 
-The tests are performed by simulation and within a genomic
-context. The simulation part takes care of segment length
-distribution. The genomic context takes into account chromosomal
-location and optionally isochores.
+
 
 The software is available for download on pypi:
 
