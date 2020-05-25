@@ -99,7 +99,9 @@ import gat
 import gat.Experiment as E
 import gat.IOTools as IOTools
 import gat.IO as IO
-import GatSegmentList
+# import GatSegmentList
+import gat.SegmentList as SegmentList
+
 
 import scipy.stats
 
